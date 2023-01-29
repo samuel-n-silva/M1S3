@@ -7,7 +7,7 @@ public class PessoaJuridica {
         this.cnpj = _cnpj;
     }
 
-    public void exibirNomeCompleto(){
+    public void exibirPessoa(){
         System.out.println("Rodrigo Lima"+" Cnpj:"+cnpj);
     }
 }

@@ -7,7 +7,7 @@ public class Pessoa {
         this.nomeCompleto = _nomeCompleto;
     }
 
-    public void exibirNomeCompleto(){
+    public void exibirPessoa(){
         System.out.println("Samuel Nunes");
     }
 }

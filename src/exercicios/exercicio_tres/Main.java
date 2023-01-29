@@ -5,7 +5,7 @@ public class Main {
         PessoaFisica novaPessoaFs = new PessoaFisica("74031231");
         PessoaJuridica novaPessoaPj = new PessoaJuridica("9873214987");
 
-        novaPessoaFs.exibirNomeCompleto();
-        novaPessoaPj.exibirNomeCompleto();
+        novaPessoaFs.exibirPessoa();
+        novaPessoaPj.exibirPessoa();
     }
 }

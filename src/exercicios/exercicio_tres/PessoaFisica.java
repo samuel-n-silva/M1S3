@@ -7,7 +7,7 @@ public class PessoaFisica {
         this.cpf = _cpf;
     }
 
-    public void exibirNomeCompleto(){
+    public void exibirPessoa(){
         System.out.println("Davi Nunes"+" Cpf:"+cpf);
     }
 }
