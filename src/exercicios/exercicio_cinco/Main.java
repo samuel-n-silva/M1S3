@@ -21,14 +21,30 @@ public class Main {
                             System.out.print("Informe a marca do carro: ");
                             String carro = ler.nextLine();
 
+                            if (carro.isBlank()){
+                                throw new Exception("[Erro] - Nome não informado !!");
+                            }
+
                             System.out.print("Informe o Modelo do carro: ");
                             String tipo = ler.nextLine();
+
+                            if (tipo.isBlank()){
+                                throw new Exception("[Erro] - Tipo não informado !!");
+                            }
 
                             System.out.print("Informe o tipo de combustivel: ");
                             String combustivel = ler.nextLine();
 
+                            if (combustivel.isBlank()){
+                                throw new Exception("[Erro] - Combustivel não informado !!");
+                            }
+
                             System.out.print("Informe categoria do carro: ");
                             String categoria = ler.nextLine();
+
+                            if (categoria.isBlank()){
+                                throw new Exception("[Erro] - Categoria não informada !!");
+                            }
 
                             System.out.print("Informe o ano do carro: ");
                             int ano = ler.nextInt();
@@ -59,7 +75,7 @@ public class Main {
             }while (opc != 3);
 
         }catch (Exception erro){
-            System.out.println("erro dados incorretos !!");
+            System.out.println(erro.getMessage());
         }
     }
 }
