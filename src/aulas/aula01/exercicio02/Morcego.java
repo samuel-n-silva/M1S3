@@ -9,4 +9,8 @@ public class Morcego extends Mamifero {
         super(_nome, _idade, _castrado);
         this.local = _local;
     }
+
+    public void andar() {
+        System.out.print(" Esta voando ....");
+    }
 }

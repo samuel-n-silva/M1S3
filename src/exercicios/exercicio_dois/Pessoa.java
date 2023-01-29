@@ -1,26 +1,26 @@
 package exercicios.exercicio_dois;
 
 public class Pessoa {
-    private String nome;
-    private String endereco;
+    protected String nome;
+    protected String endereco;
 
-    public String getNome() {
+    protected String getNome() {
         return nome;
     }
 
-    private void setNome(String nome) {
+    protected void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getEndereco() {
+    protected String getEndereco() {
         return endereco;
     }
 
-    private void setEndereco(String endereco) {
+    protected void setEndereco(String endereco) {
         this.endereco = endereco;
     }
 
-    public Pessoa(String _nome, String _endereco) {
+    protected Pessoa(String _nome, String _endereco) {
         this.setNome(_nome);
         this.setEndereco(_endereco);
     }

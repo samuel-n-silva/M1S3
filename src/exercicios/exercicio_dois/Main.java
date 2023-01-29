@@ -5,6 +5,7 @@ public class Main {
         PessoaFisica novaPf = new PessoaFisica("Samuel","Rua castro mendes","9023123244");
         PessoaJuridica novaPj = new PessoaJuridica("Romero","Rua catavanto","9023123244");
 
+        novaPj.setCnpj("4322145678");
         System.out.println(novaPf.getNome()+" CPF:"+novaPf.getCpf());
         System.out.println(novaPj.getNome()+" CNPJ:"+novaPj.getCnpj());
 
