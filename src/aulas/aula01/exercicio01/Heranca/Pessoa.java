@@ -1,4 +1,4 @@
-package aulas.aula01.Heranca;
+package aulas.aula01.exercicio01.Heranca;
 
 public class Pessoa {
     public String nomeCompleto;

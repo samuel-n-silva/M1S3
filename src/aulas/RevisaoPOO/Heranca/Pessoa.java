@@ -1,4 +1,4 @@
-package aulas.RevisaoPOO;
+package aulas.RevisaoPOO.Heranca;
 
 public class Pessoa {
     public String nomeCompleto;

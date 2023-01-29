@@ -1,10 +1,11 @@
 package aulas.RevisaoPOO;
 
+import aulas.RevisaoPOO.Heranca.Aluno;
+
 public class Main {
     public static void main(String[] args) {
-        Aluno novoAluno = new Aluno();
+        Aluno aluno01 = new Aluno("Samuel nunes", 25, 23312, "923012301","23212312-12", "Estudante", 1);
 
-        novoAluno.setMatricula(1231);
-
+        System.out.println(aluno01.nomeCompleto);
     }
 }

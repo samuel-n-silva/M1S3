@@ -1,6 +1,6 @@
-package aulas.aula01;
+package aulas.aula01.exercicio01;
 
-import aulas.aula01.Heranca.Pessoa;
+import aulas.aula01.exercicio01.Heranca.Pessoa;
 
 public class Funcionario extends Pessoa {
     public double salario;

@@ -1,4 +1,4 @@
-package aulas.aula01;
+package aulas.aula01.exercicio01;
 
 import java.text.NumberFormat;
 import java.util.Locale;
